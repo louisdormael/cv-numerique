@@ -1,3 +1,34 @@
-header{
-    background-image: url(https://www.moissonmontreal.org/wp-content/uploads/2014/11/Rectangle-Gris-Fonce-700x230.jpg);
+body{
+    background-image: url(https://www.comment-photographier.com/wp-content/uploads/2015/06/F4A4944.jpg);
+    backdrop-filter: blur(10px);
+}
+
+body>header{
+    background-color:grey;
+    margin-bottom: 30px;
+}
+
+#photo_de_profil{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+
+#texte_presentation{
+    text-align: center;
+    font-family: 'Okta Neue';
+    margin: 10px 100px 20px;
+    border: 5px solid black ;
+    background-color: white;
+}
+
+header>a{
+    display: inline;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    align-items:center;
 }
