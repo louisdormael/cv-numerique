@@ -1,11 +1,17 @@
-body{
+#background-pictures{
     background-image: url(https://www.comment-photographier.com/wp-content/uploads/2015/06/F4A4944.jpg);
     backdrop-filter: blur(10px);
+    background: cover;
 }
 
-body>header{
+header{
+    margin: 0;
+    padding: 0;
+}
+header>div{
     background-color:grey;
-    margin-bottom: 30px;
+    margin: 0;
+    padding: 0;
 }
 
 #photo_de_profil{
@@ -24,7 +30,7 @@ body>header{
     background-color: white;
 }
 
-header>a{
+header>div>a{
     display: inline;
     font-size: large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
