@@ -7,13 +7,6 @@ body{
     min-height: 100%;
 }
 
-
-#background-pictures{
-    backdrop-filter: blur(8px);
-    background-image: url(https://www.comment-photographier.com/wp-content/uploads/2015/06/F4A4944.jpg);
-    
-}
-
 header>div{
     background-color:grey;
     padding: 20px;
@@ -25,20 +18,31 @@ header>div{
 
 #photo_de_profil{
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     display: block;
     margin: auto;
 }
 
 #texte_presentation{
     text-align: center;
-    font-family: 'Okta Neue';
+    font-size:large;
+    font-family: 'Arial';
     margin: 10px 100px 20px;
-    border: 5px solid black ;
     background-color: white;
     margin-left: 20%;
     margin-right: 20%;
+    animation: fadein 3s;
+}
+
+#center{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 5%;    
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 header>div>a{
@@ -75,4 +79,37 @@ footer>div>a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     color: white;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* sur Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
