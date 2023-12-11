@@ -1,42 +1,30 @@
 
 .grid-but{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-}   
-
-.licence{
-    grid-column: 1;
-    grid-row: 1;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
-.nom{
-    grid-column: 2;
-    grid-row: 1;
+.nom, .lieu {
+    grid-column-start: 1;
 }
 
-.lieu{
-    grid-column: 3;
-    grid-row: 1;
+.logo {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
-.logo{
-    grid-column: 2 / 3;
-    grid-row: 1;
-}
-
-.batiment{
-    grid-column: 2/3;
-    grid-row: 2/3;
+.batiment {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
 }
 
 #logo-iut{
-    width: 10%;
-    height: 5%;
 }
 
 #batiment-iut{
-    width: 20%;
-    height: 20%;
+    width: 50%;
 }
