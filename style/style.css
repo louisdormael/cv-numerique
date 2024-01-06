@@ -5,6 +5,8 @@ html{
 body{
     margin: 0;
     min-height: 100%;
+    background-image: url(https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?cs=srgb&dl=pexels-johannes-plenio-1103970.jpg&fm=jpg);
+    background-repeat: no-repeat;
 }
 
 header>div{
@@ -18,31 +20,34 @@ header>div{
 
 #photo_de_profil{
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 310px;
+    height: 310px;
     display: block;
     margin: auto;
+    margin-bottom: 1%;
+    animation: fadein 2s;
 }
 
 #texte_presentation{
     text-align: center;
     font-size:large;
     font-family: 'Arial';
-    margin: 10px 100px 20px;
+    padding: 1%;
     background-color: white;
-    margin-left: 20%;
-    margin-right: 20%;
+    border-style: none;
+    border-radius: 30px;
+    box-shadow: 5px 5px 1em grey;
+    margin-left: 10%;
+    margin-right: 10%;
     animation: fadein 3s;
+    font-family: Andale Mono, monospace;
 }
 
 #center{
     margin-top: 5%;
-    margin-left: 20%;
-    margin-right: 5%;    
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 0%;   
 }
 
 header>div>a{
@@ -50,23 +55,11 @@ header>div>a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     color: white;
+    text-decoration: none;
 }
 
 header>div>a:hover{
     color: black;
-}
-
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-footer>div{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 
 #logo_linkedin{
@@ -74,11 +67,163 @@ footer>div{
     height: 50px;
 }
 
-footer>div>a{
+table{
+    border: 5px solid;
+    border-collapse: collapse;
+    width: 30%;
+    
+}
+
+th{
+    height: 5px;
+    font-family: Andale Mono, monospace;
+    font-size: large;
+}
+
+td{
+    font-family: Andale Mono, monospace;
+    font-size: large;
+    padding: 2%;
+    text-align: center;
+    background-color: white;
+}
+
+button{
+    font-size: large;
+    border-radius: 10px;
+    font-family: Andale Mono, monospace;
+    color: white;
+    background-color: black;
+}
+
+.bouton_projet{
+    background-color: red;
+}
+
+.tableau_projet{
+    border-color: red;
+}
+
+.th_projet{
+    background-color: red;
+}
+
+.tableau_formation{
+    border-color: green
+}
+
+.bouton_formation{
+    background-color: green;
+}
+
+.th_formation{
+    background-color: green;
+}
+
+.tableau_experiences{
+    border-color: yellow
+}
+
+.bouton_experiences{
+    background-color: yellow;
+}
+
+.th_experiences{
+    background-color: yellow;
+}
+
+.tableau_cv{
+    border-color: blue
+}
+
+.bouton_cv{
+    background-color: blue;
+}
+
+.th_cv{
+    background-color: blue;
+}
+
+.tableau_contact{
+    border-color: magenta
+}
+
+.bouton_contact{
+    background-color: magenta;
+}
+
+.th_contact{
+    background-color: magenta;
+}
+
+.grid-tab-1{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    animation: fadein 3s;
+}
+
+.grid-tab-1 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro{
+    grid-column-start: 1;
+}
+
+.for{
+    grid-column-start: 2;
+}
+
+.exp{
+    grid-column-start: 3;
+}
+
+.grid-tab-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    animation: fadein 3s;
+    margin-top: 5%;
+}
+
+.grid-tab-2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv{
+    grid-column-start: 1;
+}
+
+.cont{
+    grid-column-start: 2;
+}
+
+.home{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+footer>a{
     font-size: large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     color: white;
+    text-decoration: none;
 }
 
 @keyframes fadein {

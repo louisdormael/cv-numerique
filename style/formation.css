@@ -1,12 +1,14 @@
 
 .grid-but{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
-.nom, .lieu {
+.licence{
+    border-style: none;
+    border-radius: 30px;
+    box-shadow: 5px 5px 1em grey;
     grid-column-start: 1;
 }
 

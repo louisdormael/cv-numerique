@@ -1,0 +1,101 @@
+header>h1{
+    font-family: 'Arial';
+    color: black;
+    text-align: center;
+}
+
+.sae{
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size:large;
+    font-family: 'Arial';
+    padding: 1%;
+    background-color: white;
+    border-style: none;
+    border-radius: 30px;
+    box-shadow: 5px 5px 1em grey;
+    font-family: Andale Mono, monospace;
+    width: 80%;
+    height: 80%;
+    margin-left: 5%;
+}
+
+.apple-mobility{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    margin-right: 1%;
+}
+.image-present{
+    width: 90%;
+    height: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: gray;
+    border-radius: 30px;
+}
+
+.navigable{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.button-nav{
+    align-self: center;
+    color: black;
+    border: none;
+    background: none;
+    font-size: 3em;
+    padding: 0;
+}
+
+.button-nav:hover{
+    cursor: pointer;
+    border-bottom: solid 2px white;
+    margin-bottom: -1px;
+}
+
+.images{
+    margin:0%;
+    display: flex;
+    justify-content: center;
+}
+
+.savoir{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    font-size:large;
+    font-family: 'Arial';
+    padding: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 1%;
+}
+
+.list>p{
+    text-align: center;
+    font-size: 110%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'Arial';
+    color:white;
+    background-color: black;
+    border-style: none;
+    border-radius: 30px;
+    height: 30%;
+}
