@@ -28,7 +28,7 @@ function changeImageButton(currentCpt){
     changeImage(path,currentCpt);
 }
 
-function setMinMaxPath(minimum, maximum, pathForImage){
+function setMinMaxPathApple(minimum, maximum, pathForImage){
     min = minimum;
     max = maximum;
     path = pathForImage;

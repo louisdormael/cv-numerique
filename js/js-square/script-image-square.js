@@ -15,17 +15,17 @@ function nextSquare(){
 function previousSquare(){
     cpt = (cpt-1 >= min ? cpt-1 : max);
     lastCpt = cpt;
-    changeImageSquare(path + cpt + ".png", cpt);
+    changeImage(path + cpt + ".png", cpt);
 }
 
-function changeImageSquare(pathForImage,currentCpt){
+function changeImage(pathForImage,currentCpt){
     lastCpt = currentCpt;
     cpt = currentCpt;
-    document.getElementById("change-image-square").src = pathForImage;
+    document.getElementById("square").src = pathForImage;
 }
 
-function changeImageButtonSquare(currentCpt){
-    changeImageSquare(path,currentCpt);
+function changeImageButton(currentCpt){
+    changeImage(path,currentCpt);
 }
 
 function setMinMaxPathSquare(minimum, maximum, pathForImage){

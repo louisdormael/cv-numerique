@@ -85,6 +85,7 @@ header>h1{
     padding-left: 10%;
     padding-right: 10%;
     margin-top: 1%;
+    width: 50%;
 }
 
 .list>p{
@@ -97,5 +98,16 @@ header>h1{
     background-color: black;
     border-style: none;
     border-radius: 30px;
-    height: 30%;
+}
+
+.long{
+    text-align: center;
+    font-size: 110%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'Arial';
+    color:white;
+    background-color: black;
+    border-style: none;
+    border-radius: 30px;
 }
