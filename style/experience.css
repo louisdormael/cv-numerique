@@ -1,20 +1,6 @@
-
-#logo-iut{
+#logo-securimed{
     width: 50%;
-}
-
-#batiment-iut{
-    width: 50%;
-}
-
-#logo-lycee{
-    margin-top: 3%;
-    width: 30%;
-    margin-bottom: 2%;
-}
-
-#batiment-lycee{
-    width: 50%;
+    height: 10%;
 }
 
 .ligne-verticale{
@@ -111,7 +97,6 @@ h1{
 }
 
 .ligne-horizontale-longue{
-    width: 10%;
     height: 10%;
     background-color: black;
     border-radius: 10px;
