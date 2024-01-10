@@ -6,6 +6,7 @@ let min;
 let max;
 let path;
 
+
 function next(){
     cpt = (cpt+1 <= max ? cpt+1 : 1);
     lastCpt = cpt;

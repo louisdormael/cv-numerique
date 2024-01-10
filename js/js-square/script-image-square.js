@@ -1,35 +1,35 @@
 
-let cpt=1;
-let lastCpt = cpt;
+let cpt2=1;
+let lastCpt2 = cpt2;
 
-let min;
-let max;
-let path;
+let min2;
+let max2;
+let path2;
 
 function nextSquare(){
-    cpt = (cpt+1 <= max ? cpt+1 : 1);
-    lastCpt = cpt;
-    changeImage(path + cpt + ".png", cpt);
+    cpt2 = (cpt2+1 <= max2 ? cpt2+1 : 1);
+    lastCpt2 = cpt2;
+    changeImageSquare(path2 + cpt2 + ".png", cpt2);
 }
 
 function previousSquare(){
-    cpt = (cpt-1 >= min ? cpt-1 : max);
-    lastCpt = cpt;
-    changeImage(path + cpt + ".png", cpt);
+    cpt2 = (cpt2-1 >= min ? cpt2-1 : max2);
+    lastCpt2 = cpt2;
+    changeImageSquare(path2 + cpt2 + ".png", cpt2);
 }
 
-function changeImage(pathForImage,currentCpt){
-    lastCpt = currentCpt;
-    cpt = currentCpt;
-    document.getElementById("square").src = pathForImage;
+function changeImageSquare(path2ForImage,currentCpt2){
+    lastCpt2 = currentCpt2;
+    cpt2 = currentCpt2;
+    document.getElementById("square").src = path2ForImage;
 }
 
-function changeImageButton(currentCpt){
-    changeImage(path,currentCpt);
+function changeImageButtonSquare(currentCpt2){
+    changeImageSquare(path2,currentCpt2);
 }
 
 function setMinMaxPathSquare(minimum, maximum, pathForImage){
-    min = minimum;
-    max = maximum;
-    path = pathForImage;
+    min2 = minimum;
+    max2 = maximum;
+    path2 = pathForImage;
 }

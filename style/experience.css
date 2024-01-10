@@ -1,6 +1,16 @@
 #logo-securimed{
-    width: 50%;
-    height: 10%;
+    width: 80%;
+    height: 60%;
+}
+
+#logo-opc{
+    width: 30%;
+    height: 30%;
+}
+
+.nom{
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .ligne-verticale{
@@ -38,11 +48,29 @@
     border-radius: 30px;
     box-shadow: 5px 5px 1em grey;
     font-family: Andale Mono, monospace;
-    width: 80%;
-    height: 80%;
-    margin-left: 5%;
-    margin-bottom: 20%;
-    margin-top: 25%;
+    width: 150%;
+    height: 40%;
+    margin-bottom: 5%;
+    margin-top: 75%;
+}
+
+.securimed{
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size:large;
+    font-family: 'Arial';
+    background-color: white;
+    border-style: none;
+    border-radius: 30px;
+    box-shadow: 5px 5px 1em grey;
+    font-family: Andale Mono, monospace;
+    width: 150%;
+    height: 40%;
+    margin-bottom: 5%;
+    margin-top: 100%;
 }
 
 h1{
@@ -60,9 +88,20 @@ h1{
 .formations{
     display: flex;
     flex-direction: column;
+    margin-right: 10%;
 }
 
 .year{
+    font-family: 'Arial';
+    text-align: center;
+    font-size:large;
+    font-family: 'Arial';
+    width: 40%;
+    margin-bottom: 20%;
+    margin-top: 18%;
+}
+
+.year-opc{
     font-family: 'Arial';
     text-align: center;
     font-size:large;
@@ -86,6 +125,7 @@ h1{
     text-align: center;
     margin-bottom: 20%;
     margin-top: 18%;
+    margin-right: 5%;
 }
 
 .ligne-verticale-longue{
@@ -97,7 +137,8 @@ h1{
 }
 
 .ligne-horizontale-longue{
-    height: 10%;
+    width: 20%;
+    height: 1%;
     background-color: black;
     border-radius: 10px;
     border-color: black;
@@ -123,4 +164,10 @@ h1{
 
 .licence>a:hover{
     color: red;
+}
+
+.logo{
+    margin:0%;
+    display: flex;
+    justify-content: center;
 }
