@@ -94,6 +94,13 @@ button{
     font-family: Andale Mono, monospace;
     color: white;
     background-color: black;
+    transition-duration: 400ms;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
 
 .bouton_projet{
