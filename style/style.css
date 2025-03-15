@@ -238,6 +238,45 @@ footer>a:hover{
     color: black;
 }
 
+
+.titleCompetence{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.imgCompetence{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    
+}
+
+.imgSize{
+    width: 10%;
+    height: 10%;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: pre-wrap;
+    max-width: 400px;
+  }
+
 @keyframes fadein {
     from {
         opacity:0;

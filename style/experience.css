@@ -171,3 +171,32 @@ h1{
     display: flex;
     justify-content: center;
 }
+
+.infos-gip{
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    margin-top: 14%;
+    margin-right: 5%;
+}
+
+.gip{
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size:large;
+    font-family: 'Arial';
+    background-color: white;
+    border-style: none;
+    border-radius: 30px;
+    box-shadow: 5px 5px 1em grey;
+    font-family: Andale Mono, monospace;
+    width: 150%;
+    height: 40%;
+    margin-top: 80%;
+}
